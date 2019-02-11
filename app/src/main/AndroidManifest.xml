@@ -9,6 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Agradecimiento"
+            android:parentActivityName=".Descrip">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Descrip" />
+        </activity>
+        <activity
+            android:name=".Descrip"
+            android:parentActivityName=".TipoDCuenta">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TipoDCuenta" />
+        </activity>
+        <activity
+            android:name=".Donde"
+            android:parentActivityName=".TipoDCuenta">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TipoDCuenta" />
+        </activity>
+        <activity
+            android:name=".TipoDCuenta"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name=".CreateAcount"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

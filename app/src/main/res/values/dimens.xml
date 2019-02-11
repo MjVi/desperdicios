@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="textsize_notienecuenta">16sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="EditTextMarginCA">10dp</dimen>
+    <dimen name="padding_vertical_login">45</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="EditTextMarginCrA">10dp</dimen>
+    <dimen name="EditTextMarginTipo">35dp</dimen>
+</resources>

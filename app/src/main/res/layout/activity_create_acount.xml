@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    layout_height="match_parent"
+    layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/editTextColorWhite"
+    tools:context=".CreateAcount">
+
+    <include layout="@layout/actionbar_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/EditTextMarginCA"
+            android:layout_marginTop="@dimen/EditTextMarginCrA">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Edittextblack"
+                android:layout_marginTop="@dimen/EditTextMarginCA">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/emale"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Edittextblack"
+                android:layout_marginTop="@dimen/EditTextMarginCA">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Edittextblack"
+                android:layout_marginTop="@dimen/EditTextMarginCA">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Usuario"
+                    android:inputType="text"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Edittextblack"
+                android:layout_marginTop="@dimen/EditTextMarginCA">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Edittextblack"
+                android:layout_marginTop="@dimen/EditTextMarginCA">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/Cpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confiramar Contraseña"
+                    android:inputType="textPassword"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/joinus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UNETE"
+                android:theme="@style/RaisedButtonDark"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

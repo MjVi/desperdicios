@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Xd</string>
+    <string name="hint_username">Nombre de Usuario</string>
+    <string name="textpassword">Contraseña</string>
+    <string name="emale">Email</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

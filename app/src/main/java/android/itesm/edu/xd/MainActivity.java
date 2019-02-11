@@ -1,5 +1,7 @@
 package android.itesm.edu.xd;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -9,7 +11,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        databaseList();
-        getDataDir();
+
+        new Handler().postDelayed(new Runnable() {// a thread in Android
+            @Override
+            public void run() {
+                Intent intent = new Intent( MainActivity.this  ,  Login.class  );
+                startActivity(intent); // Go, go, go
+                finish(); // kill this activity
+            }
+        },3000); // time in milliseconds
     }
 }
