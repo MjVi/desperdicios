@@ -70,9 +70,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Caducidad"
-                    android:inputType="text"
 
-                    />
+                    android:inputType="text" />
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -85,9 +84,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Alcaldía"
-                    android:inputType="textPassword"
 
-                    />
+                    android:inputType="text" />
             </android.support.design.widget.TextInputLayout>
 
 

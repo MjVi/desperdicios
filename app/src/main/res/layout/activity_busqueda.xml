@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    layout_height="match_parent"
+    layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/editTextColorWhite"
+    tools:context=".Busqueda">
+
+    <include layout="@layout/actionbar_toolbar"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="119dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="99dp"
+        android:onClick="goElegir"
+        android:text="ELEGIR" />
+
+</android.support.design.widget.CoordinatorLayout>

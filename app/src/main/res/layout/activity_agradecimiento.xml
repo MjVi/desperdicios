@@ -19,6 +19,54 @@
         android:layout_height="match_parent">
 
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="299dp"
+            android:fontFamily="sans-serif-black"
+            android:text="¡Gracias por tu aportación!"
+            android:textAlignment="center"
+            android:textColor="@color/editTextColorBlack"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="177dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="371dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="183dp"
+            android:text="Si alguien necesita tu comida antes de que caduque te lo haremos saber."
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="113dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="161dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginBottom="31dp"
+            android:onClick="goSetType"
+            android:text="REGRESAR" />
 
     </RelativeLayout>
 

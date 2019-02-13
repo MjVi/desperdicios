@@ -79,9 +79,9 @@
                         android:id="@+id/login"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="LOGIN"
-                        android:theme="@style/RaisedButtonDark"
-                        android:onClick="goSetType"/>
+                        android:onClick="goSetType"
+                        android:text="ACCEDER"
+                        android:theme="@style/RaisedButtonDark" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"

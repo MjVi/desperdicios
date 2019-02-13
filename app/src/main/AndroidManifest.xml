@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Agradecimiento"
+        <activity android:name=".Espera"></activity>
+        <activity android:name=".Busqueda" />
+        <activity
+            android:name=".Agradecimiento"
             android:parentActivityName=".Descrip">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
